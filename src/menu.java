@@ -86,7 +86,6 @@ public class menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-
         sopa verformulario2=new sopa(); 
         verformulario2.setVisible(true);
         dispose();

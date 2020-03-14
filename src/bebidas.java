@@ -286,9 +286,19 @@ public class bebidas extends javax.swing.JFrame {
         getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 460, 110, -1));
 
         jButton1.setText("ACEPTAR");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 530, 100, -1));
 
         jButton2.setText("REGRESAR");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 530, 100, -1));
 
         jLabel21.setForeground(new java.awt.Color(255, 255, 255));
@@ -345,8 +355,8 @@ public class bebidas extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        bebidas verformulario3=new bebidas(); 
-        verformulario3.setVisible(false);
+        menu verformulario3=new menu(); 
+        verformulario3.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
