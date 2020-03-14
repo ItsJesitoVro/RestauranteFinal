@@ -46,42 +46,35 @@ public class sopa extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(null);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jRadioButton2.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jRadioButton2.setText("SOPIA AGUADA");
-        getContentPane().add(jRadioButton2);
-        jRadioButton2.setBounds(12, 116, 130, 27);
+        getContentPane().add(jRadioButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 116, 130, -1));
 
         jRadioButton3.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jRadioButton3.setText("SPAGUTI");
-        getContentPane().add(jRadioButton3);
-        jRadioButton3.setBounds(12, 145, 90, 27);
+        getContentPane().add(jRadioButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 145, 90, -1));
 
         jRadioButton4.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jRadioButton4.setText("ARROZ");
-        getContentPane().add(jRadioButton4);
-        jRadioButton4.setBounds(12, 174, 80, 27);
+        getContentPane().add(jRadioButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 174, 80, -1));
 
         jLabel3.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel3.setText("$ 20");
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(277, 90, 40, 18);
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(277, 90, 40, -1));
 
         jLabel4.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel4.setText("$25");
-        getContentPane().add(jLabel4);
-        jLabel4.setBounds(281, 119, 40, 18);
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 119, 40, -1));
 
         jLabel5.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel5.setText("$30");
-        getContentPane().add(jLabel5);
-        jLabel5.setBounds(281, 148, 40, 18);
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 148, 40, -1));
 
         jLabel6.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel6.setText("$35");
-        getContentPane().add(jLabel6);
-        jLabel6.setBounds(281, 177, 40, 18);
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 177, 40, -1));
 
         jButton1.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jButton1.setText("ACEPTAR");
@@ -90,13 +83,11 @@ public class sopa extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1);
-        jButton1.setBounds(257, 215, 100, 27);
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(257, 215, 100, -1));
 
         jLabel2.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel2.setText("MENU DE SOPA");
-        getContentPane().add(jLabel2);
-        jLabel2.setBounds(130, 12, 110, 18);
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 12, 110, -1));
 
         jButton2.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jButton2.setText("REGRESAR");
@@ -105,22 +96,19 @@ public class sopa extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2);
-        jButton2.setBounds(27, 215, 110, 27);
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(27, 215, 110, -1));
 
         jLabel1.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel1.setText("TIPOS DE SOPA ");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(12, 52, 120, 18);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 52, 120, -1));
 
         jRadioButton1.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jRadioButton1.setText("SOPA FRIA");
-        getContentPane().add(jRadioButton1);
-        jRadioButton1.setBounds(12, 87, 100, 27);
+        getContentPane().add(jRadioButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 87, 100, -1));
 
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/03.jpg"))); // NOI18N
         jLabel7.setText("jLabel7");
-        getContentPane().add(jLabel7);
-        jLabel7.setBounds(0, 0, 400, 300);
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 300));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

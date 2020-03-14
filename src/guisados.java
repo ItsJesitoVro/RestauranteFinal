@@ -61,68 +61,58 @@ public class guisados extends javax.swing.JFrame {
         jLabel14 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(null);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
         jLabel2.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("PLATO PRINCIPAL");
-        getContentPane().add(jLabel2);
-        jLabel2.setBounds(188, 21, 190, 21);
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(188, 21, 190, -1));
 
         jRadioButton1.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
         jRadioButton1.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton1.setText("ENCHILADAS");
-        getContentPane().add(jRadioButton1);
-        jRadioButton1.setBounds(23, 69, 130, 25);
+        getContentPane().add(jRadioButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 69, 130, -1));
 
         jRadioButton2.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
         jRadioButton2.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton2.setText("TACOS DORADOS");
-        getContentPane().add(jRadioButton2);
-        jRadioButton2.setBounds(23, 92, 150, 25);
+        getContentPane().add(jRadioButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 92, 150, -1));
 
         jRadioButton3.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
         jRadioButton3.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton3.setText("PECHUGA EMPANIZADA");
-        getContentPane().add(jRadioButton3);
-        jRadioButton3.setBounds(23, 119, 180, 25);
+        getContentPane().add(jRadioButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 119, 180, -1));
 
         jRadioButton4.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
         jRadioButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton4.setText("TACOS DORADOS");
-        getContentPane().add(jRadioButton4);
-        jRadioButton4.setBounds(23, 146, 150, 25);
+        jRadioButton4.setText("CHILAQUILES");
+        getContentPane().add(jRadioButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 146, 150, -1));
 
         jRadioButton5.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
         jRadioButton5.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton5.setText("HAMBURGUESA");
-        getContentPane().add(jRadioButton5);
-        jRadioButton5.setBounds(23, 173, 140, 25);
+        getContentPane().add(jRadioButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 173, 140, -1));
 
         jRadioButton6.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
         jRadioButton6.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton6.setText("HOT DOG");
-        getContentPane().add(jRadioButton6);
-        jRadioButton6.setBounds(23, 200, 110, 25);
+        getContentPane().add(jRadioButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 200, 110, -1));
 
         jRadioButton7.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
         jRadioButton7.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton7.setText("ENCHILADAS");
-        getContentPane().add(jRadioButton7);
-        jRadioButton7.setBounds(23, 227, 130, 25);
+        getContentPane().add(jRadioButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 227, 130, -1));
 
         jRadioButton8.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
         jRadioButton8.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton8.setText("CARNE DE PUERCO");
-        getContentPane().add(jRadioButton8);
-        jRadioButton8.setBounds(23, 254, 160, 25);
+        getContentPane().add(jRadioButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 254, 160, -1));
 
         jRadioButton9.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
         jRadioButton9.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton9.setText("CALDO DE CAMORON");
-        getContentPane().add(jRadioButton9);
-        jRadioButton9.setBounds(23, 281, 170, 25);
+        getContentPane().add(jRadioButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 281, 170, -1));
 
         jRadioButton10.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
         jRadioButton10.setForeground(new java.awt.Color(255, 255, 255));
@@ -132,8 +122,7 @@ public class guisados extends javax.swing.JFrame {
                 jRadioButton10ActionPerformed(evt);
             }
         });
-        getContentPane().add(jRadioButton10);
-        jRadioButton10.setBounds(23, 308, 220, 25);
+        getContentPane().add(jRadioButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 308, 220, -1));
 
         jRadioButton11.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
         jRadioButton11.setForeground(new java.awt.Color(255, 255, 255));
@@ -143,110 +132,86 @@ public class guisados extends javax.swing.JFrame {
                 jRadioButton11ActionPerformed(evt);
             }
         });
-        getContentPane().add(jRadioButton11);
-        jRadioButton11.setBounds(23, 335, 170, 25);
+        getContentPane().add(jRadioButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 335, 170, -1));
 
         jRadioButton12.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
         jRadioButton12.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton12.setText("FILETE EMPANIZADO");
-        getContentPane().add(jRadioButton12);
-        jRadioButton12.setBounds(23, 362, 170, 25);
+        getContentPane().add(jRadioButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(23, 362, 170, -1));
 
-        jLabel1.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(414, 73, 70, 17);
+        jLabel1.setText("$35");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 73, 70, -1));
 
-        jLabel3.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("jLabel3");
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(414, 96, 70, 17);
+        jLabel3.setText("$40");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 96, 70, -1));
 
-        jLabel4.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("jLabel4");
-        getContentPane().add(jLabel4);
-        jLabel4.setBounds(414, 123, 70, 17);
+        jLabel4.setText("$40");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 123, 70, -1));
 
-        jLabel5.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("jLabel5");
-        getContentPane().add(jLabel5);
-        jLabel5.setBounds(414, 150, 70, 17);
+        jLabel5.setText("$25");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 150, 70, -1));
 
-        jLabel6.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("jLabel6");
-        getContentPane().add(jLabel6);
-        jLabel6.setBounds(414, 177, 70, 17);
+        jLabel6.setText("$25");
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 177, 70, -1));
 
-        jLabel7.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("jLabel7");
-        getContentPane().add(jLabel7);
-        jLabel7.setBounds(414, 204, 70, 17);
+        jLabel7.setText("$15");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 204, 70, -1));
 
-        jLabel8.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setText("jLabel8");
-        getContentPane().add(jLabel8);
-        jLabel8.setBounds(414, 231, 70, 17);
+        jLabel8.setText("$30");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 231, 70, -1));
 
-        jLabel9.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setText("jLabel9");
-        getContentPane().add(jLabel9);
-        jLabel9.setBounds(414, 258, 70, 17);
+        jLabel9.setText("$35");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(414, 258, 70, -1));
 
-        jLabel10.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setText("jLabel10");
-        getContentPane().add(jLabel10);
-        jLabel10.setBounds(408, 285, 80, 17);
+        jLabel10.setText("  $40");
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(408, 285, 40, -1));
 
-        jLabel11.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel11.setText("jLabel11");
-        getContentPane().add(jLabel11);
-        jLabel11.setBounds(408, 312, 80, 17);
+        jLabel11.setText("  $15");
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(408, 312, 50, -1));
 
-        jLabel12.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel12.setText("jLabel12");
-        getContentPane().add(jLabel12);
-        jLabel12.setBounds(408, 339, 80, 17);
+        jLabel12.setText("  $17");
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(408, 339, 40, -1));
 
-        jLabel13.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jLabel13.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel13.setText("jLabel13");
-        getContentPane().add(jLabel13);
-        jLabel13.setBounds(408, 366, 80, 17);
+        jLabel13.setText("  $36");
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(408, 366, 40, -1));
 
         jButton1.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setText("ACEPTAR");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton1);
-        jButton1.setBounds(300, 410, 140, 25);
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 410, 140, -1));
 
         jButton2.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("REGRESAR");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton2);
-        jButton2.setBounds(70, 410, 150, 25);
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 410, 150, -1));
 
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/04.jpg"))); // NOI18N
         jLabel14.setText("jLabel14");
-        getContentPane().add(jLabel14);
-        jLabel14.setBounds(0, 0, 550, 460);
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 530, 470));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -258,16 +223,6 @@ public class guisados extends javax.swing.JFrame {
     private void jRadioButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton11ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton11ActionPerformed
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        menu verformulario2=new menu(); 
-        verformulario2.setVisible(true);
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        menu verformulario2=new menu(); 
-        verformulario2.setVisible(true);
-    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments

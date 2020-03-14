@@ -39,13 +39,12 @@ public class menu extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(null);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("MENU PRINCIPAL");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(110, 10, 136, 21);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, -1, -1));
 
         jButton1.setText("SOPA");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -53,8 +52,7 @@ public class menu extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1);
-        jButton1.setBounds(98, 62, 138, 25);
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(98, 62, 138, -1));
 
         jButton2.setText("PLATO PRINCIPAL");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -62,8 +60,7 @@ public class menu extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2);
-        jButton2.setBounds(98, 105, 138, 25);
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(98, 105, 138, -1));
 
         jButton3.setText("BEBIDAS");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -71,8 +68,7 @@ public class menu extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3);
-        jButton3.setBounds(98, 148, 138, 25);
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(98, 148, 138, -1));
 
         jButton4.setText("POSTRE");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -80,13 +76,11 @@ public class menu extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4);
-        jButton4.setBounds(98, 191, 138, 25);
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(98, 191, 138, -1));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\ADRIANA\\Documents\\NetBeansProjects\\Restaurante\\imagen\\02.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/07.jpg"))); // NOI18N
         jLabel3.setText("jLabel3");
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(-150, 0, 500, 260);
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 430, 360));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
