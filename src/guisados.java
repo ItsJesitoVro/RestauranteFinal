@@ -1,3 +1,6 @@
+
+import java.awt.Dimension;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -15,6 +18,8 @@ public class guisados extends javax.swing.JFrame {
      */
     public guisados() {
         initComponents();
+        this.setSize(new Dimension(350, 350));
+        this.setMinimumSize(new Dimension(350, 350));
     }
 
     /**
@@ -220,18 +225,25 @@ public class guisados extends javax.swing.JFrame {
         jLabel13.setBounds(408, 366, 80, 17);
 
         jButton1.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setText("ACEPTAR");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton1);
-        jButton1.setBounds(300, 410, 140, 27);
+        jButton1.setBounds(300, 410, 140, 25);
 
         jButton2.setFont(new java.awt.Font("Arial Black", 0, 11)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("REGRESAR");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2);
-        jButton2.setBounds(70, 410, 150, 27);
+        jButton2.setBounds(70, 410, 150, 25);
 
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\ADRIANA\\Documents\\NetBeansProjects\\Restaurante\\imagen\\04.jpg")); // NOI18N
         jLabel14.setText("jLabel14");
         getContentPane().add(jLabel14);
         jLabel14.setBounds(0, 0, 550, 460);
@@ -246,6 +258,16 @@ public class guisados extends javax.swing.JFrame {
     private void jRadioButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton11ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton11ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        menu verformulario2=new menu(); 
+        verformulario2.setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        menu verformulario2=new menu(); 
+        verformulario2.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments

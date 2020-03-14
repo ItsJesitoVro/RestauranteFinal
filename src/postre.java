@@ -51,13 +51,23 @@ public class postre extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jButton2.setText("REGRESAR");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2);
-        jButton2.setBounds(20, 230, 110, 28);
+        jButton2.setBounds(20, 230, 110, 27);
 
         jButton1.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jButton1.setText("ACEPTAR");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton1);
-        jButton1.setBounds(170, 230, 100, 28);
+        jButton1.setBounds(170, 230, 100, 27);
 
         jLabel6.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
@@ -87,33 +97,42 @@ public class postre extends javax.swing.JFrame {
         jRadioButton1.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton1.setText("HELADO");
         getContentPane().add(jRadioButton1);
-        jRadioButton1.setBounds(8, 57, 80, 26);
+        jRadioButton1.setBounds(8, 57, 81, 27);
 
         jRadioButton2.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jRadioButton2.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton2.setText("PASTEL");
         getContentPane().add(jRadioButton2);
-        jRadioButton2.setBounds(8, 101, 78, 26);
+        jRadioButton2.setBounds(8, 101, 79, 27);
 
         jRadioButton3.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jRadioButton3.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton3.setText("FLAN");
         getContentPane().add(jRadioButton3);
-        jRadioButton3.setBounds(8, 145, 60, 26);
+        jRadioButton3.setBounds(8, 145, 61, 27);
 
         jRadioButton4.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jRadioButton4.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton4.setText("GELATINA");
         getContentPane().add(jRadioButton4);
-        jRadioButton4.setBounds(8, 189, 94, 26);
+        jRadioButton4.setBounds(8, 189, 95, 27);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\ADRIANA\\Documents\\NetBeansProjects\\Restaurante\\imagen\\06.jpg")); // NOI18N
         jLabel1.setText("jLabel1");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, 0, 300, 280);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        menu verformulario2=new menu(); 
+        verformulario2.setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        menu verformulario2=new menu(); 
+        verformulario2.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments

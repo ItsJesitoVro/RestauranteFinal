@@ -1,3 +1,6 @@
+
+import java.awt.Dimension;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -15,6 +18,8 @@ public class sopa extends javax.swing.JFrame {
      */
     public sopa() {
         initComponents();
+        this.setSize(new Dimension(400, 300));
+        this.setMinimumSize(new Dimension(400, 300));
     }
 
     /**
@@ -46,17 +51,17 @@ public class sopa extends javax.swing.JFrame {
         jRadioButton2.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jRadioButton2.setText("SOPIA AGUADA");
         getContentPane().add(jRadioButton2);
-        jRadioButton2.setBounds(12, 116, 130, 26);
+        jRadioButton2.setBounds(12, 116, 130, 27);
 
         jRadioButton3.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jRadioButton3.setText("SPAGUTI");
         getContentPane().add(jRadioButton3);
-        jRadioButton3.setBounds(12, 145, 90, 26);
+        jRadioButton3.setBounds(12, 145, 90, 27);
 
         jRadioButton4.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jRadioButton4.setText("ARROZ");
         getContentPane().add(jRadioButton4);
-        jRadioButton4.setBounds(12, 174, 80, 26);
+        jRadioButton4.setBounds(12, 174, 80, 27);
 
         jLabel3.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel3.setText("$ 20");
@@ -80,8 +85,13 @@ public class sopa extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jButton1.setText("ACEPTAR");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton1);
-        jButton1.setBounds(257, 215, 100, 28);
+        jButton1.setBounds(257, 215, 100, 27);
 
         jLabel2.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel2.setText("MENU DE SOPA");
@@ -90,8 +100,13 @@ public class sopa extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jButton2.setText("REGRESAR");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2);
-        jButton2.setBounds(27, 215, 110, 28);
+        jButton2.setBounds(27, 215, 110, 27);
 
         jLabel1.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jLabel1.setText("TIPOS DE SOPA ");
@@ -101,15 +116,25 @@ public class sopa extends javax.swing.JFrame {
         jRadioButton1.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         jRadioButton1.setText("SOPA FRIA");
         getContentPane().add(jRadioButton1);
-        jRadioButton1.setBounds(12, 87, 100, 26);
+        jRadioButton1.setBounds(12, 87, 100, 27);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\ADRIANA\\Documents\\NetBeansProjects\\Restaurante\\imagen\\03.jpg")); // NOI18N
         jLabel7.setText("jLabel7");
         getContentPane().add(jLabel7);
         jLabel7.setBounds(0, 0, 400, 300);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+       
+        menu verformulario2=new menu(); 
+        verformulario2.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        menu verformulario2=new menu(); 
+        verformulario2.setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

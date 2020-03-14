@@ -1,3 +1,6 @@
+
+import java.awt.Dimension;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -15,6 +18,10 @@ public class bebidas extends javax.swing.JFrame {
      */
     public bebidas() {
         initComponents();
+         //Línea 1
+        this.setSize(new Dimension(500, 650));
+        //Línea 2
+        this.setMinimumSize(new Dimension(500, 600));
     }
 
     /**
@@ -295,15 +302,24 @@ public class bebidas extends javax.swing.JFrame {
         jLabel19.setBounds(277, 457, 110, 17);
 
         jButton1.setText("ACEPTAR");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton1);
-        jButton1.setBounds(268, 526, 100, 25);
+        jButton1.setBounds(268, 526, 100, 23);
 
         jButton2.setText("REGRESAR");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2);
-        jButton2.setBounds(24, 526, 100, 25);
+        jButton2.setBounds(24, 526, 100, 23);
 
         jLabel21.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Users\\ADRIANA\\Documents\\NetBeansProjects\\Restaurante\\imagen\\05.jpg")); // NOI18N
         jLabel21.setText("jLabel21");
         getContentPane().add(jLabel21);
         jLabel21.setBounds(0, -20, 480, 610);
@@ -334,6 +350,21 @@ public class bebidas extends javax.swing.JFrame {
     private void jRadioButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton14ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton14ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        //línea 1-instanciamos un objeto de la clase Menu.java
+      menu verformulario2=new menu(); 
+ 
+         //línea 2-hacemos visible el formulario que queremos llamar 
+         verformulario2.setVisible(true); //línea 1-instanciamos un objeto de la clase Menu.java
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        bebidas verformulario3=new bebidas(); 
+        verformulario3.setVisible(false);
+        menu verformulario2=new menu(); 
+        verformulario2.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
