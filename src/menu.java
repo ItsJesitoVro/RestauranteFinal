@@ -86,29 +86,26 @@ public class menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-
+        menu verformulario3=new menu(); 
+        verformulario3.setVisible(false);
         sopa verformulario2=new sopa(); 
         verformulario2.setVisible(true);
-        dispose();
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         guisados verformulario2=new guisados(); 
         verformulario2.setVisible(true);
-        dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         bebidas verformulario2=new bebidas(); 
         verformulario2.setVisible(true);
-        dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         postre verformulario2=new postre(); 
         verformulario2.setVisible(true);
-        dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
 
     /**

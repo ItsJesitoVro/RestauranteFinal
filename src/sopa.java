@@ -117,13 +117,11 @@ public class sopa extends javax.swing.JFrame {
        
         menu verformulario2=new menu(); 
         verformulario2.setVisible(true);
-        dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         menu verformulario2=new menu(); 
         verformulario2.setVisible(true);
-        dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

@@ -1,7 +1,5 @@
 
 import java.awt.Dimension;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -334,22 +332,6 @@ public class bebidas extends javax.swing.JFrame {
     private void jRadioButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton14ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton14ActionPerformed
-
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        //línea 1-instanciamos un objeto de la clase Menu.java
-      menu verformulario2=new menu(); 
-         //línea 2-hacemos visible el formulario que queremos llamar 
-         verformulario2.setVisible(true); //línea 1-instanciamos un objeto de la clase Menu.java
-         dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        bebidas verformulario3=new bebidas(); 
-        verformulario3.setVisible(false);
-        dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
-
 
     /**
      * @param args the command line arguments
